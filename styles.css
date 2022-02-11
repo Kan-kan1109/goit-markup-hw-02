@@ -1,0 +1,112 @@
+:root {
+    --primary-text-color: #E5E5E5;
+    --title-text-color:  #212121;
+    --accent-color: #2196F3;
+
+}
+
+
+
+.page {
+    background-color: hsl(0, 0%, 90%);
+    color: #757575 ;
+}
+
+ul { list-style: none;
+}
+/*  */
+
+.header {
+    background-color: #FFFFFF;
+}
+.logo {
+    color: var(--accent-color);
+}
+
+.studio {
+  color: var(--title-text-color);
+}
+
+
+.site-naw-link {
+     color: var(--title-text-color)
+}
+
+.site-naw-link:hover, 
+.site-naw-link:focus {
+color: var(--accent-color);
+}
+
+.current {
+color: var(--accent-color);
+}
+.current:hover,
+.current:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav-link {
+    color: #757575;
+}
+
+.auth-nav-link:hover:hover, 
+.auth-nav-link:focus {
+    color: var(--accent-color)
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-main {
+color: #FFFFFF;
+}
+
+
+/*  Button */
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* Features */
+
+.feature-list-name {
+    color: var(--title-text-color);
+}
+
+.work-name {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+.teams {
+    background-color: #F5F4FA;
+}
+.teams-list-name {
+    color: var(--title-text-color)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background:  #E5E5E5;
+color: #FFFFFF Эффективные решения для вашего бизнеса
+color: #212121;Внимание к деталям
+color: #757575;Идейные соображения
+color: #212121;Чем мы занимаемся
+#2196F3 studia and 
+втор. цвет фона background: #2F303A;background: #F5F4FA;
+
+ */
